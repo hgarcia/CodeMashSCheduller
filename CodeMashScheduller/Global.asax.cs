@@ -1,5 +1,11 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Web.Mvc;
 using System.Web.Routing;
+using Castle.ActiveRecord;
+using Castle.ActiveRecord.Framework.Config;
+using CodeMashScheduller.Models;
 
 namespace CodeMashScheduller
 {
@@ -23,6 +29,35 @@ namespace CodeMashScheduller
         protected void Application_Start()
         {
             RegisterRoutes(RouteTable.Routes);
+            InitializeActiveRecord();
+        }
+
+        private void InitializeActiveRecord()
+        {
+
+            var properties = new Dictionary<string,string>
+                                 {
+                                     {"connection.driver_class", "NHibernate.Driver.SqlClientDriver"},
+                                     {"dialect", "NHibernate.Dialect.MsSql2005Dialect"},
+                                     {"connection.provider", "NHibernate.Connection.DriverConnectionProvider"},
+                                     {
+                                         "connection.connection_string",
+                                         @"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Development\Code\Net3.5\CodeMashScheduller\CodeMashScheduller\App_Data\CodeMashScheduller.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
+                                         }
+                                 };
+
+            var source = new InPlaceConfigurationSource();
+
+            source.Add(typeof(ActiveRecordBase), properties);
+
+            ActiveRecordStarter.Initialize(source, typeof(Session));
+            try
+            {
+                ActiveRecordStarter.CreateSchema();
+            }catch
+            {
+                ActiveRecordStarter.UpdateSchema();
+            }
         }
     }
 }

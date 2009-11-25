@@ -32,7 +32,7 @@ namespace CodeMashScheduller
             InitializeActiveRecord();
         }
 
-        private void InitializeActiveRecord()
+        public static void InitializeActiveRecord()
         {
 
             var properties = new Dictionary<string,string>
@@ -40,6 +40,7 @@ namespace CodeMashScheduller
                                      {"connection.driver_class", "NHibernate.Driver.SqlClientDriver"},
                                      {"dialect", "NHibernate.Dialect.MsSql2005Dialect"},
                                      {"connection.provider", "NHibernate.Connection.DriverConnectionProvider"},
+                                     {"proxyfactory.factory_class", "NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle"},
                                      {
                                          "connection.connection_string",
                                          @"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Development\Code\Net3.5\CodeMashScheduller\CodeMashScheduller\App_Data\CodeMashScheduller.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"

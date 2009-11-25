@@ -8,11 +8,11 @@ namespace CodeMashScheduller.Models
     {
         [PrimaryKey]
         public virtual int Id{ get; set;}
-        [Property]
+        [Property(Length = 255)]
         public virtual string URI { get; set;}
-        [Property]
+        [Property(Length = 255)]
         public virtual string Title { get; set;}
-        [Property]
+        [Property(Length = 3000)]
         public virtual string Abstract { get; set;}
         [Property]
         public virtual DateTime? Start { get; set;}

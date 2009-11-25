@@ -6,15 +6,17 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Andres Almiray</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Andres-Almiray</SpeakerURI>
   </Session>
   <Session>
     <URI>/rest/sessions/Convention-over-Configuration-Applied-to-Net</URI>
     <Title>Convention over Configuration Applied to .Net</Title>
-    <Abstract>At some point in the past year we finally realized that we can really apply the design concepts that make Ruby on Rails so great to .Net development. A plethora of OSS projects in the .Net space are exploiting &amp;quot;Convention over Configuration&amp;quot; to reduce friction in tool usage. In this talk I'd like to discuss some examples of CoC usage, how Conventions are applied, lessons learned, and a bit about creating your own conventions inside your application architecture.&lt;br&gt;&lt;br&gt;</Abstract>
+    <Abstract>At some point in the past year we finally realized that we can really apply the design concepts that make Ruby on Rails so great to .Net development. A plethora of OSS projects in the .Net space are exploiting &amp;quot;Convention over Configuration&amp;quot; to reduce friction in tool usage. In this talk I'd like to discuss some examples of CoC usage, how Conventions are applied, lessons learned, and a bit about creating your own conventions inside your application architecture.</Abstract>
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Jeremy D. Miller</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Jeremy-D-Miller</SpeakerURI>
   </Session>
   <Session>
@@ -24,6 +26,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Jeremy D. Miller</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Jeremy-D-Miller</SpeakerURI>
   </Session>
   <Session>
@@ -33,6 +36,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Jim Wooley</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Jim-Wooley</SpeakerURI>
   </Session>
   <Session>
@@ -42,6 +46,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Jim Wooley</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Jim-Wooley</SpeakerURI>
   </Session>
   <Session>
@@ -51,6 +56,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Bill Sempf</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Bill-Sempf</SpeakerURI>
   </Session>
   <Session>
@@ -60,6 +66,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Wes Faler</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Wes-Faler</SpeakerURI>
   </Session>
   <Session>
@@ -69,6 +76,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Advanced</Difficulty>
     <SpeakerName>Chris Adamson</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/Chris-Adamson</SpeakerURI>
   </Session>
   <Session>
@@ -78,6 +86,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Chris Adamson</SpeakerName>
+    <Technology>Mobile</Technology>
     <SpeakerURI>/rest/speakers/Chris-Adamson</SpeakerURI>
   </Session>
   <Session>
@@ -87,6 +96,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Rob Gillen</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Rob-Gillen</SpeakerURI>
   </Session>
   <Session>
@@ -96,6 +106,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Advanced</Difficulty>
     <SpeakerName>Gary Short</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Gary-Short</SpeakerURI>
   </Session>
   <Session>
@@ -105,6 +116,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>James Ward</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/James-Ward</SpeakerURI>
   </Session>
   <Session>
@@ -114,6 +126,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>James Ward</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/James-Ward</SpeakerURI>
   </Session>
   <Session>
@@ -123,6 +136,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Ben Scofield</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/Ben-Scofield</SpeakerURI>
   </Session>
   <Session>
@@ -132,6 +146,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Brian Genisio</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Brian-Genisio</SpeakerURI>
   </Session>
   <Session>
@@ -141,6 +156,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Advanced</Difficulty>
     <SpeakerName>Chris Smith</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Chris-Smith</SpeakerURI>
   </Session>
   <Session>
@@ -150,6 +166,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Jim Weirich</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Jim-Weirich</SpeakerURI>
   </Session>
   <Session>
@@ -159,6 +176,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Andres Almiray</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Andres-Almiray</SpeakerURI>
   </Session>
   <Session>
@@ -168,6 +186,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Matt Yoho</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Matt-Yoho</SpeakerURI>
   </Session>
   <Session>
@@ -177,6 +196,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Matt Yoho</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Matt-Yoho</SpeakerURI>
   </Session>
   <Session>
@@ -186,6 +206,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>James Avery</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/James-Avery</SpeakerURI>
   </Session>
   <Session>
@@ -195,6 +216,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Anthony Broad-Crawford</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Anthony-BroadCrawford</SpeakerURI>
   </Session>
   <Session>
@@ -204,6 +226,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Chris Patterson</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Chris-Patterson</SpeakerURI>
   </Session>
   <Session>
@@ -213,6 +236,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Leon Gersing and Charley Baker</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Leon-Gersing-and-Charley-Baker</SpeakerURI>
   </Session>
   <Session>
@@ -222,6 +246,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Leon Gersing</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Leon-Gersing</SpeakerURI>
   </Session>
   <Session>
@@ -231,6 +256,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Leon Gersing</SpeakerName>
+    <Technology>Mobile</Technology>
     <SpeakerURI>/rest/speakers/Leon-Gersing</SpeakerURI>
   </Session>
   <Session>
@@ -240,6 +266,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Jason Follas</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Jason-Follas</SpeakerURI>
   </Session>
   <Session>
@@ -249,6 +276,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Jim Holmes</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Jim-Holmes</SpeakerURI>
   </Session>
   <Session>
@@ -258,6 +286,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Catherine Devlin</SpeakerName>
+    <Technology>Python</Technology>
     <SpeakerURI>/rest/speakers/Catherine-Devlin</SpeakerURI>
   </Session>
   <Session>
@@ -267,6 +296,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Hudson Akridge</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Hudson-Akridge</SpeakerURI>
   </Session>
   <Session>
@@ -276,6 +306,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Matt Hester and Aaron Lerch</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Matt-Hester-and-Aaron-Lerch</SpeakerURI>
   </Session>
   <Session>
@@ -285,6 +316,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Jesse Liberty</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Jesse-Liberty</SpeakerURI>
   </Session>
   <Session>
@@ -294,6 +326,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Jesse Liberty</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Jesse-Liberty</SpeakerURI>
   </Session>
   <Session>
@@ -303,6 +336,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Jim Weaver</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Jim-Weaver</SpeakerURI>
   </Session>
   <Session>
@@ -312,6 +346,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Dick Wall</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Dick-Wall</SpeakerURI>
   </Session>
   <Session>
@@ -321,6 +356,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Frank Wierzbicki</SpeakerName>
+    <Technology>Python</Technology>
     <SpeakerURI>/rest/speakers/Frank-Wierzbicki</SpeakerURI>
   </Session>
   <Session>
@@ -330,6 +366,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Adam McCrea</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/Adam-McCrea</SpeakerURI>
   </Session>
   <Session>
@@ -339,6 +376,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Joe Kuemerle</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Joe-Kuemerle</SpeakerURI>
   </Session>
   <Session>
@@ -348,6 +386,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Michael J Norton</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/Michael-J-Norton</SpeakerURI>
   </Session>
   <Session>
@@ -357,6 +396,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Michael Slade</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Michael-Slade</SpeakerURI>
   </Session>
   <Session>
@@ -366,6 +406,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Ben Hall</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Ben-Hall</SpeakerURI>
   </Session>
   <Session>
@@ -375,6 +416,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Mike Doel</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Mike-Doel</SpeakerURI>
   </Session>
   <Session>
@@ -384,6 +426,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Ken Sipe</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Ken-Sipe</SpeakerURI>
   </Session>
   <Session>
@@ -393,6 +436,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Steve Andrews</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Steve-Andrews</SpeakerURI>
   </Session>
   <Session>
@@ -402,6 +446,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Jon Stahl</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Jon-Stahl</SpeakerURI>
   </Session>
   <Session>
@@ -411,6 +456,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Joe O'Brien</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Joe-OBrien</SpeakerURI>
   </Session>
   <Session>
@@ -420,6 +466,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Joe Fiorini, Jonathan Penn, Josh Schramm, Matt Yoho, Jim Weirich</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Joe-Fiorini-Jonathan-Penn-Josh-Schramm-Matt-Yoho-Jim-Weirich</SpeakerURI>
   </Session>
   <Session>
@@ -429,6 +476,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Aaron Bedra</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Aaron-Bedra</SpeakerURI>
   </Session>
   <Session>
@@ -438,6 +486,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Carey Payette</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Carey-Payette</SpeakerURI>
   </Session>
   <Session>
@@ -447,6 +496,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Jim Weirich</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Jim-Weirich</SpeakerURI>
   </Session>
   <Session>
@@ -456,6 +506,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Joe O'Brien Mark Peabody Leon Gersing</SpeakerName>
+    <Technology>Ruby</Technology>
     <SpeakerURI>/rest/speakers/Joe-OBrien-Mark-Peabody-Leon-Gersing</SpeakerURI>
   </Session>
   <Session>
@@ -465,6 +516,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Advanced</Difficulty>
     <SpeakerName>Bill Wagner</SpeakerName>
+    <Technology>.NET</Technology>
     <SpeakerURI>/rest/speakers/Bill-Wagner</SpeakerURI>
   </Session>
   <Session>
@@ -474,6 +526,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Kevin Dahlhausen</SpeakerName>
+    <Technology>Python</Technology>
     <SpeakerURI>/rest/speakers/Kevin-Dahlhausen</SpeakerURI>
   </Session>
   <Session>
@@ -483,6 +536,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Joe Nuxoll</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Joe-Nuxoll</SpeakerURI>
   </Session>
   <Session>
@@ -492,6 +546,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Bill Venners</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Bill-Venners</SpeakerURI>
   </Session>
   <Session>
@@ -501,6 +556,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Barry Hawkins</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Barry-Hawkins</SpeakerURI>
   </Session>
   <Session>
@@ -510,6 +566,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Barry Hawkins</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Barry-Hawkins</SpeakerURI>
   </Session>
   <Session>
@@ -519,6 +576,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Chris Sutton</SpeakerName>
+    <Technology>Python</Technology>
     <SpeakerURI>/rest/speakers/Chris-Sutton</SpeakerURI>
   </Session>
   <Session>
@@ -528,6 +586,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Joe Nuxoll</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/Joe-Nuxoll</SpeakerURI>
   </Session>
   <Session>
@@ -537,6 +596,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Carol Smith and Jon Stahl</SpeakerName>
+    <Technology>Other</Technology>
     <SpeakerURI>/rest/speakers/Carol-Smith-and-Jon-Stahl</SpeakerURI>
   </Session>
   <Session>
@@ -546,6 +606,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Intermediate</Difficulty>
     <SpeakerName>Mike Dirolf</SpeakerName>
+    <Technology>Other Languages</Technology>
     <SpeakerURI>/rest/speakers/Mike-Dirolf</SpeakerURI>
   </Session>
   <Session>
@@ -555,6 +616,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Howard M. Lewis Ship</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Howard-M-Lewis-Ship</SpeakerURI>
   </Session>
   <Session>
@@ -564,6 +626,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Howard M. Lewis Ship</SpeakerName>
+    <Technology>Java</Technology>
     <SpeakerURI>/rest/speakers/Howard-M-Lewis-Ship</SpeakerURI>
   </Session>
   <Session>
@@ -573,6 +636,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Daniel Steinberg</SpeakerName>
+    <Technology>Mobile</Technology>
     <SpeakerURI>/rest/speakers/Daniel-Steinberg</SpeakerURI>
   </Session>
   <Session>
@@ -582,6 +646,7 @@
     <Start>0001-01-01T00:00:00</Start>
     <Difficulty>Beginner</Difficulty>
     <SpeakerName>Carl Quinn</SpeakerName>
+    <Technology>Java/JVM</Technology>
     <SpeakerURI>/rest/speakers/Carl-Quinn</SpeakerURI>
   </Session>
 </Sessions>

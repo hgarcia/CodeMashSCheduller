@@ -63,6 +63,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib\Castle.ActiveRecord\NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Castle.ActiveRecord\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core">
@@ -88,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CacheDataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Models\ModelExtensions.cs" />
     <Compile Include="Models\RestProxyReader.cs" />
@@ -139,6 +144,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="Views\CacheData\Index.aspx" />
     <Content Include="Views\HTMLPage1.htm" />
     <Content Include="Views\Scheduller\Index.aspx" />
     <Content Include="Views\Scheduller\_sessionDetails.ascx" />
@@ -158,11 +164,6 @@
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
     <Content Include="Views\Shared\Site.Master" />
     <Content Include="Views\Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="activerecord.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

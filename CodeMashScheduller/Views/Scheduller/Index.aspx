@@ -16,7 +16,7 @@
             <tbody>
                 <tr>
                     <td class="left"><strong>Sessions</strong> 
-                        <ul id="sessions-day1" class="dropable connectedSortabl-day1">
+                        <ul id="sessions-day1" class="dropable connectedSortable-day1">
                         <%
                             //TODO: Fix this once we have dates in the sessions.
                         foreach (var session in Model.Where(s=>s.Start.GetValueOrDefault(DateTime.Now) <= new DateTime(2010,1,13)))

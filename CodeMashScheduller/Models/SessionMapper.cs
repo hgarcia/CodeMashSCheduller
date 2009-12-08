@@ -30,6 +30,9 @@ namespace CodeMashScheduller.Models
             session.SpeakerName = getNodeString(xmlSession, "SpeakerName");
             session.SpeakerURI = getNodeString(xmlSession, "SpeakerURI");
             session.Difficulty = getLevel(getNodeString(xmlSession, "Difficulty"));
+            session.Room = getNodeString(xmlSession, "Room");
+            session.Technology = getNodeString(xmlSession, "Technology");
+            session.Track = getNodeString(xmlSession, "Technology");
             return session;
         }
 

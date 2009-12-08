@@ -22,6 +22,13 @@ namespace CodeMashScheduller.Models
         public virtual string SpeakerName { get; set;}
         [Property]
         public virtual string SpeakerURI { get; set; }
+        [Property]
+        public virtual string Room { get; set; }
+        [Property]
+        public virtual string Technology { get; set; }
+        [Property]
+        public virtual string Track { get; set; }
+
     }
 
 }

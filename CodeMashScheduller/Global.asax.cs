@@ -34,7 +34,7 @@ namespace CodeMashScheduller
 
         public static void InitializeActiveRecord()
         {
-
+            if (ActiveRecordStarter.IsInitialized) return;
             var properties = new Dictionary<string,string>
                                  {
                                      {"connection.driver_class", "NHibernate.Driver.SqlClientDriver"},
@@ -49,9 +49,9 @@ namespace CodeMashScheduller
 
             var source = new InPlaceConfigurationSource();
 
-            source.Add(typeof(ActiveRecordBase), properties);
-
+            source.Add(typeof(ActiveRecordBase), properties);    
             ActiveRecordStarter.Initialize(source, typeof(Session));
+            
             try
             {
                 ActiveRecordStarter.CreateSchema();

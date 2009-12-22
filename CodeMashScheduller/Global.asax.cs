@@ -29,7 +29,7 @@ namespace CodeMashScheduller
         protected void Application_Start()
         {
             RegisterRoutes(RouteTable.Routes);
-            InitializeActiveRecord();
+           // InitializeActiveRecord();
         }
 
         public static void InitializeActiveRecord()
@@ -50,7 +50,7 @@ namespace CodeMashScheduller
             var source = new InPlaceConfigurationSource();
 
             source.Add(typeof(ActiveRecordBase), properties);    
-            ActiveRecordStarter.Initialize(source, typeof(Session));
+            ActiveRecordStarter.Initialize(source, typeof(Session),typeof(Speaker),typeof(Precompiler));
             
             try
             {

@@ -1,0 +1,237 @@
+<Precompilers xmlns:xsi="http://www.w3.org/Intermediate1/XMLSchema-instance" xmlns:xsd="http://www.w3.org/Intermediate1/XMLSchema">
+  <Precompiler Id="1">
+    <Title>Practical T/BDD - Half Day Hands-on Lab</Title>
+    <Technology>.NET</Technology>
+    <Difficulty>Intermediate</Difficulty>
+    <Abstract>Seen enough "Hello World" presentations on Behavior/Test Driven Design?  Enough already!  In this hands-on lab, we are going to develop an application given a set of specifications.  We will be covering all of the usual suspects including pair programming, testing frameworks, and mocking. So come with a laptop (or a partner with a laptop), and get ready to code!  (We will find you a partner if you don't have one or a laptop, so don't let that stop you!) This session is a half-day session and repeats in the afternoon.</Abstract>
+    <SpeakerName>Phil Japikse</SpeakerName>
+    <Room>Cypress</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="2">
+    <Title>Practical T/BDD - Half Day Hands-on Lab (Repeat)</Title>
+    <Technology>.NET</Technology>
+    <Difficulty>Intermediate</Difficulty>
+    <Abstract>Seen enough "Hello World" presentations on Behavior/Test Driven Design?  Enough already!  In this hands-on lab, we are going to develop an application given a set of specifications.  We will be covering all of the usual suspects including pair programming, testing frameworks, and mocking. So come with a laptop (or a partner with a laptop), and get ready to code!  (We will find you a partner if you don't have one or a laptop, so don't let that stop you!) This session is a half-day session and repeats in the afternoon.</Abstract>
+    <SpeakerName>Phil Japikse</SpeakerName>
+    <Room>Cypress</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="3">
+  <Title>Test Driven Development: From Concept to Deployment</Title>
+    <Tecnology>Ruby</Tecnology>
+    <Difficulty>Intermediate</Difficulty>
+    <Abstract>
+      Objective: Learn Test Driven Development by creating a public-facing website in an all day, hands-on workshop.
+      Test Driven Development's benefits are often realized over time on real projects. One hour sessions or short workshops nearly always lack the context of TDD's fit and benefits in a real project. TDD isn't so much about testing as it is about using the process to evolve a solution's design as you solve your business problems.
+      This all-day workshop will have participants walk through an entire project from start to finish, deploying a finished, working application to the Heroku hosting service at the end of the day. Participants will use tools focusing on patterns and practices popular in the software craftsmanship movement; combining them with Agile practices in a low stress, mentoring environment.
+      The project will be a feedback application for conferences where attendees can evaluate speakers, venue, costs, rate events and recommend them to friends. Some of the tools participants will use include:
+        Cucumber for higher-level specifications.
+        RSpec for domain specifications.
+        Ruby on Rails.
+        JQuery and QUnit.
+        Git for version control, hosted in Github for the broader CodeMash public to review.
+        Heroku for cloud hosting.   
+      Workshop participants will also learn Agile processes:
+        A Kanban board to manage a pull-based backlog of work items.
+        Standup meetings to facilitate communication.
+        Pair programming.
+        End-of-day retrospective.
+      At the end of the day, participants will have created an entire application from top to bottom and deployed it to the wild. Participants will have learned a number of highly valuable skills and tools in a real world context, enabling them to more effectively apply that knowledge to their own environments.
+    </Abstract>
+    <SpeakerName>Leon Gersing</SpeakerName>
+    <Room>Indigo Bay</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="4">
+    <Title>Test Driven Development: From Concept to Deployment</Title>
+    <Tecnology>Ruby</Tecnology>
+    <Difficulty>Intermediate</Difficulty>
+    <Abstract>
+      Second part
+    </Abstract>
+    <SpeakerName>Leon Gersing</SpeakerName>
+    <Room>Indigo Bay</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="5">
+    <Title>Ruby Fundamentals</Title>
+    <Tecnology>Ruby</Tecnology>
+      <Difficulty>Intermediate</Difficulty>
+      <Abstract></Abstract>
+    <SpeakerName>Joe O'Brien and Jim Weirich</SpeakerName>
+    <Room>D</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="6">
+    <Title>Advanced Presentation Patterns</Title>
+    <Tecnology>Mixed</Tecnology>
+      <Difficulty>Intermediate</Difficulty>
+      <Abstract>
+        This advanced talk covers concerns for creating testable, maintainable presentation logic for your applications. Attendees will learn about different forms of separated presentation approaches, such as the Passive View, Supervising Controller, Presentation Model (MVVM), and Model 2 type MVC architectures with a focus on when they're applicable. Attendees will also discuss how the "Model" portion of these architectures fits in to place, as well as inter-component communication approaches. You'll also discover different approachs for constructing your software, such as Presenter First versus Presenter/View.
+        Finally, you'll learn about coordinating screens and services with the Event Aggregator pattern, some homegrown patterns for screen activation lifecycle, and using an IoC tool to make a very extensible application architecture.
+      </Abstract>
+      <SpeakerName>Jeremy D. Miller</SpeakerName>
+    <Room>D</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="7">
+    <Title>.NET Basics</Title>
+    <Tecnology>.NET</Tecnology>
+    <Difficulty>Intermediate</Difficulty>
+      <Abstract>
+        This all-day session is targeted to anyone new to .NET. You'll start out with basic "What is .NET?" and move through building applications on in various .NET technologies.  Topics covered include:
+            What is .NET? Discusses the fundamentals of the .NET platform, what it is, where it can be used, and a few myths about .NET.
+            How to Use Your Hammer - Visual Studio Walks you through how to use Visual Studio features like Intellisense, Source Control integration, debugging, and other critical foundational skills.
+            A Programmer's Primer Programming in C# Covers the basics of the C# language from Object Oriented Programming principles all the way to generics, collections, and LINQ. This is a programmer’s primer, which means you should already know at least one language and have some experience programming.
+            Client Applications  Covers standard Windows applications, Windows mobile applications and newer Windows applications based on Windows Presentation Foundation (WPF).
+            Web ApplicationsCovers the variety of ways to build web-based applications in .NET. standard ASP.NET, ASP.NET MVC, Silverlight and Web Services.
+      </Abstract>
+        <SpeakerName>Keith Elder</SpeakerName>
+    <Room>E</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="8">
+    <Title>.NET Basics</Title>
+    <Tecnology>.NET</Tecnology>
+    <Difficulty>Intermediate</Difficulty>
+    <Abstract>Second part</Abstract>
+    <SpeakerName>Keith Elder</SpeakerName>
+    <Room>E</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="9">
+    <Title>Bootstrapping your business</Title>
+    <Tecnology>N/A</Tecnology>
+      <Difficulty>Beginner</Difficulty>
+      <Abstract>
+        In this pre-compiler session Nate Kohari and James Avery will discuss how to start a technology business without venture capital funding. They will draw on their Experiences building and launching AgileZen (http://agilezen.com) and building Adzerk (http://adzerk.com) and Zerk Media (http://zerkmedia.com).
+        In the first half James and Nate will relate stories of building their businesses, what issues they ran into, and how things turned out. Nate and James will also look to the audience to share their startup experiences, whether they are running a successful business or just getting started.
+        James and Nate will then get into the details of starting your own business. They will cover how to select a good idea and what ideas and business models work best for a bootstrapping startup. They will talk about how to find the time to build that product or service (and cover the financial costs involved). They will offer advice on what technologies and techniques to use and what to avoid. Finally, they will cover how to market that startup on a shoestring budget and get the customers that will pay your bills.
+      </Abstract>
+      <SpeakerName>Nate Kohari and James Avery</SpeakerName>
+    <Room>Mangrove</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="10">
+    <Title>Getting Published in an Evolving Industry: How to Survive and Even Thrive</Title>
+      <Tecnology>N/A</Tecnology>
+      <Difficulty>Beginner</Difficulty>
+      <Abstract>
+        To paraphrase Mark Twain, "The reports of publishing's demise are greatly exaggerated." Despite the considerable pall seemingly draping the publishing industry these days, what we're actually witnessing is one of the most exciting transformations since the printing press. If you've ever had an interest in publishing your IT knowledge, join Jason Gilmore, Michael Kimsal, and James Avery for a look into three key facets of the IT publishing industry, including book publishing, electronic magazine publishing, and online advertising.
+        Jason Gilmore will kick things off with an introduction to the traditional and independent (self) publishing industries, explaining the process involved in taking a book from concept to completion in both instances. You'll learn all about the nuances of working with a traditional publisher, including contractual matters, how royalties actually work, and in what ways you can realistically expect to profit from writing a book. Jason will also discuss his experience (both positive and negative) authoring, producing, publishing, and marketing the popular book "Easy PHP Websites with the Zend Framework", sharing insight the Amazon Advantage sales channel, shipping logistics, and whether readers actually care about a polished work.
+        Michael Kimsal is next to take the stage, discussing his experiences founding and growing the electronic magazines GroovyMag and JSMag in an environment considered to be the worst in the history of magazine publishing.
+        James Avery will conclude the seminar with a look at how online advertising is offering publishers of all sizes with an alternative revenue model, sharing his knowledge and experienced gained founding and operating The Lounge and Ruby Row advertising networks.
+      </Abstract>
+      <SpeakerName>Jason Gilmore, Michael Kimsal, James Avery</SpeakerName>
+    <Room>Mangrove</Room>
+    <Start>2010-01-13T13:30:00</Start>    
+  </Precompiler>
+  <Precompiler Id="11">
+    <Title>End-to-End Coaching</Title>
+      <Tecnology>N/A</Tecnology>
+      <Difficulty>Intermediate</Difficulty>
+      <Abstract>
+        Coming together as a product development team requires coaching all the way around. Join Steve and Dave in sharing a collection of coaching techniques, experiences and exercises aimed at transforming workgroups to real, collaborative collectives.
+        Topics covered include:
+        Rolling wave planning: from product analysis to design to implementation.
+        Features, Stories, Slices, and Tests.
+        Value stream mapping and Kanban.
+        Emergent design, collective ownership.
+        Language-oriented programming and testing.
+        Tackling technical debt and improvement opportunities.
+        Systemic Domain-Driven Design: how DDD fits into an Agile/Pull-System workflow.
+        Looking to the near future, AKA stuff we're gonna try.
+      </Abstract>
+      <SpeakerName>David Laribee and Steve Harman</SpeakerName>
+    <Room>Portia/Wisteria</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="12">
+    <Title>Competency and Leadership in Software Development</Title>
+      <Tecnology>N/A</Tecnology>
+      <Difficulty>N/A</Difficulty>
+      <Abstract>
+        Expert performance can be found in many fields – from music to athletics, from science to engineering –and yes, even in software development.  We know that there is a great deal of difference between elite performers and entry level practitioners, but do we know where expertise comes from and how to develop it?  This session will discuss the latest research on expertise and the implications for software development.
+        Next we move beyond individual expertise to consider high performing teams and top notch companies, especially those that have sustained their dominance over time.  The session will present a way to think about leadership roles with an emphasis on technical competency and superior customer outcomes.
+      </Abstract>
+      <SpeakerName>Mary Poppendieck</SpeakerName>
+    <Room>Portia/Wisteria</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="13">
+    <Title>Software Engineering Fundamentals Workshop: OOP, SOLID, and More</Title>
+      <Tecnology>Mixes</Tecnology>
+      <Difficulty>Intermediate</Difficulty>
+      <Abstract>
+        We all know that software development is hard, but learning how to design good object-oriented solutions can decrease the friction in software development, reduce bugs, and make your code easier to change.  First, we'll go over principles of object oriented programming, the "SOLID" software design principles, separation of concerns, a brief overview of dependency injection frameworks, and more object-oriented tips and tricks that will help you write better, cleaner, more flexible code.  Then you get to whip out your laptop, pair up with a friend, and put your newly discovered chops to work by refactoring some very un-solid code into a more object-oriented solution that will be more flexible, readable, testable, and a pleasure to work with.  We will have code samples in Java, .NET, and Ruby on Rails and experts in all three languages who can help you out.
+        Requirements: If you want to do the code samples, you will need a laptop with a development environment for the language of your choice (Java, .NET, Ruby).  If you don't have a laptop, come anyway and pair up with someone who does.
+      </Abstract>
+      <SpeakerName>Jon Kruger</SpeakerName>
+    <Room>Guava/Tamarin</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="14">
+    <Title>Software Craftsmanship</Title>
+      <Tecnology>Mixes</Tecnology>
+      <Difficulty>Advanced</Difficulty>
+      <Abstract>Join your peers and fellow craftsmen in a variety of coding kata and exercises designed to improve your skills as software developers.  Led by organizers of the Hudson Software Craftsmanship group, this interactive session will help you sharpen your tools and learn from others.  Experienced developers from all backgrounds are welcome, as are beginners.  Attendees should already be comfortable with a programming language of their choice and if possible should bring along a laptop computer with their development tools installed, including a unit test tool.</Abstract>
+      <SpeakerName>Steve Smith and Brendan Enrick</SpeakerName>
+    <Room>Guava/Tamarin</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="15">
+    <Title>A Taste of Cocoa</Title>
+      <Tecnology>Mac/Cocoa</Tecnology>
+      <Difficulty>Advanced</Difficulty>
+      <Abstract>
+        When was the last time you smiled while developing? The same folks who brought you Snow Leopard and the iPhone also give you the tools for developing for those platforms. "Give you" as in "they're free". Sure, you can insert your "it's not open" rant here or you can come learn what a pleasure it is to develop for Mac OS X in a C-based dynamic language using Interface Builder, Xcode, and Instruments.
+        You will build a series of projects during this Pre-Compiler session that are designed to introduce you to the tools and techniques for coding Cocoa applications for Snow Leopard. You'll develop a GUI using Interface Builder and learn to write controllers in Xcode and connect the two together. You'll create your own simple models in code and then see how to create more flexible ones using Core Data. This isn't a tour through the APIs---it's an exploration of different ways of sending messages between objects using Objective-C and Cocoa.
+        You will need an Intel-based Mac running Snow Leopard along with the latest version of the developer tools. The developer tools are included with your installation disks but are not installed by default.
+      </Abstract>
+      <SpeakerName>Daniel Steinberg</SpeakerName>
+    <Room>C</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="16">
+    <Title>Introduction to iPhone SDK Development</Title>
+      <Tecnology>iPhone</Tecnology>
+      <Difficulty>Advanced</Difficulty>
+      <Abstract>
+        A new platform, a different language, an unfamiliar IDE... can you learn how to develop for the iPhone and iPod touch?  Of course you can!  In this completely redesigned introductory tutorial, we'll build a set of basic applications. You'll learn how to use the Xcode IDE, the Objective-C language, and the Cocoa Touch frameworks, as we work through the essential concepts of all iPhone applications.  Together, we'll build out examples of the major iPhone UI application metaphors:
+        single-view apps, flipping utility apps, navigation apps, and tab- based apps.  We'll also leave lots of time for questions, experimentation, and attendee-chosen topics.
+        Participants will need an Intel-based Mac with the latest release version of the iPhone SDK already installed (see http://developer.apple.com/iphone/
+        for more details).  You do not need to join the paid iPhone developer program to work through the projects in this precompiler.
+      </Abstract>
+      <SpeakerName>Chris Adamson</SpeakerName>
+    <Room>C</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="17">
+  <Title>Scripting Web Tests with Watir</Title>
+      <Tecnology>Watir/Ruby</Tecnology>
+      <Difficulty>Intermediate</Difficulty>
+      <Abstract>Automated function testing is a challenging, critical, yet overlooked part of the software development lifecycle. In this hands-on, tutorial led by Charley Baker, a lead developer on the open source Watir testing tool, we'll be writing and running tests that verify page presentation and application behavior and learn some basic Ruby along the way.</Abstract>
+      <SpeakerName>Charley Baker</SpeakerName>
+    <Room>F</Room>
+    <Start>2010-01-13T08:30:00</Start>
+  </Precompiler>
+  <Precompiler Id="18">
+    <Title>Modular Java Using OSGi</Title>
+      <Tecnology>Java</Tecnology>
+      <Difficulty>Advanced</Difficulty>
+      <Abstract>
+        Java is an object-oriented language so naturally it’s modular, right? We program to interfaces, use Spring to resolve dependencies, and package up our classes into cohesive units. Unfortunately we then take a step back and consolidate them into one monolithic WAR file that gets loaded into a single class loader. Even worse, we may try to keep them separated in WAR, EAR, and JAR files but then interconnect these packages via web services, RMI, or some other ceremonial method.
+        OSGi has garnered a lot of publicity lately because it solves these common problems of “modularizing” Java in a simple and easy to use fashion. We'll break the chains of comfort that many Java devs have built over the last decade by exploring a more modular approach to many everyday problems in Java. This hands on talk will have attendees pair up to build a traditional multi-tiered, enterprise Java application, with the appropriate tools and techniques of OSGi. Testing OSGi based applications, deploying web applications, extending modules using fragments, leveraging enterprise repositories, and correctly decomposing enterprise systems into cohesive, loosely coupled modules will be covered in depth via hands on exploration.
+        Each pair will require a laptop with a minimum of
+        Java 1.6.
+        Eclipse Equinox.
+        Pax Construct.
+        Maven.
+        IDE of choice.
+      </Abstract>
+      <SpeakerName>Todd Kaufman</SpeakerName>
+    <Room>F</Room>
+    <Start>2010-01-13T13:30:00</Start>
+  </Precompiler>
+</Precompilers>

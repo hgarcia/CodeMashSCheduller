@@ -18,5 +18,12 @@ namespace CodeMashScheduller.Tests
             document.Load("speakers.xml");
             return document.SelectNodes("/Speakers/Speaker"); ;           
         }
+
+        public XmlNodeList GetPrecompiler()
+        {
+            var document = new XmlDocument();
+            document.Load("precompiler.xml");
+            return document.SelectNodes("/Precompilers/Precompiler");;
+        }
     }
 }

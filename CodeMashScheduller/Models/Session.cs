@@ -3,8 +3,7 @@ using Castle.ActiveRecord;
 
 namespace CodeMashScheduller.Models
 {
-    [ActiveRecord]
-    public class Session : ActiveRecordBase<Session>
+    public class Session : ISession
     {
         [PrimaryKey]
         public virtual int Id{ get; set;}

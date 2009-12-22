@@ -12,7 +12,6 @@ color:#E3DDC9;
 strong{font-size: 110%;}
 
 #maincontainer{
-	width: 840px; /*Width of main container*/
 	margin: 0 auto; /*Center container on page*/
 }
 
@@ -52,16 +51,22 @@ color: #FFFF80;
 }
 
 .innertube{
-margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
-margin-top: 0;
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+}
+.button
+{
+	width: 17px;
+	height: 17px;
 }
 ul{
 	list-style: none;	
 	padding-left: 0px;
 	margin-left: 0px;
 }
-ul.dropable {
-	min-height: 400px;
+div.item 
+{
+	height: 150px;
 }
 .item, li.item div{
 	padding: 0.4em;
@@ -84,7 +89,7 @@ li.item div{
 .ui-state-highlight{
 	height: 110px;
 	-moz-border-radius-bottomleft:6px;
-	-moz-border-radius-bottomright64px;
+	-moz-border-radius-bottomright:64px;
 	-moz-border-radius-topleft:6px;
 	-moz-border-radius-topright:6px;
 }
@@ -94,6 +99,4 @@ td{
 }
 td.left{
 	border-right:dashed 1px;
-}
-
-
+}  

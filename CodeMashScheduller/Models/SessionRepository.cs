@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
@@ -19,14 +18,10 @@ namespace CodeMashScheduller.Models
         public IEnumerable<Session> All()
         {
             var nodes = _restProxyReader.GetSessions();
-            return (from XmlNode session in nodes select _sessionMapper.Create(session)).ToList();
-        }
-
-        public int UpdateCache()
-        {
-            var nodes = _restProxyReader.GetSessions();
-            return (from XmlNode session in nodes select _sessionMapper.Update(session)).Count();
-
+            return (from XmlNode session in nodes select _sessionMapper.Create(session))
+                .ToList()
+                .OrderBy(s => s.Start)
+                .OrderBy(s => s.Room);
         }
     }
 }

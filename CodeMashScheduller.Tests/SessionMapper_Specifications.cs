@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using CodeMashScheduller.Models;
 using NUnit.Framework;
 
@@ -7,11 +6,6 @@ namespace CodeMashScheduller.Tests
     [TestFixture]
     public class SessionMapper_Specifications
     {
-        [SetUp]
-        public void setup()
-        {
-            MvcApplication.InitializeActiveRecord();
-        }
         [Test]
         public void When_passing_an_xmlNode_Should_return_a_valid_Session()
         {
@@ -21,8 +15,6 @@ namespace CodeMashScheduller.Tests
 
             Assert.That(session,Is.AssignableTo(typeof(Session)));
             Assert.That(session.Title.Length,Is.GreaterThan(0));
-
-            session.Delete();
         }
 
         [Test]
@@ -42,8 +34,6 @@ namespace CodeMashScheduller.Tests
             Assert.That(session.Track, Is.Not.Null);
             Assert.That(session.SpeakerName,Is.Not.Null);
             Assert.That(session.SpeakerURI, Is.Not.Null);
-
-            session.Delete();
          
         }
     }

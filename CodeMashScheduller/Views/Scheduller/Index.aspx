@@ -1,4 +1,4 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<IEnumerable<CodeMashScheduller.Models.Session>>" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<CodeMashScheduller.Models.SchedulleModel>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
 	Index
@@ -15,84 +15,204 @@
         <table class="ui-widget-content ui-corner-all">
             <tbody>
                 <tr>
-                    <td class="left"><strong>Sessions</strong> 
-                        <ul id="sessions-day1" class="dropable connectedSortable-day1">
-                        <%
-                            //TODO: Fix this once we have dates in the sessions.
-                        foreach (var session in Model.Where(s=>s.Start.GetValueOrDefault(DateTime.Now) <= new DateTime(2010,1,13)))
-                        {
-                          Html.RenderPartial("_sessionDetails", session);
-                        }
-                        %>
-                        </ul></td>
-                    <td><strong>My sessions</strong> 
-                        <ul id="mySessions-day1" class="dropable connectedSortable-day1">
-
-                        </ul></td>
+                <td>
+                <%
+                foreach (var session in Model.Precompiler.Where(p=>p.Room == "Indigo Bay"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>               
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "Cypress"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %> 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "E"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "D"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "Mangrove"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "Portia/Wisteria"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "Guava/Tamarin"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "C"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Precompiler.Where(p => p.Room == "F"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>                
                 </tr>
             </tbody>
         </table>
     </div>
-    <div id="tabs-2">
+     <div id="tabs-2">
         <table class="ui-widget-content ui-corner-all">
             <tbody>
                 <tr>
-                    <td class="left"><strong>Sessions</strong> 
-                        <ul id="sessions-day2" class="dropable connectedSortable-day2">
-                        <%
-                            foreach (var session in Model.Where(s => s.Start.GetValueOrDefault(DateTime.Now) >= new DateTime(2010, 1, 14)))
-                        {
-                          Html.RenderPartial("_sessionDetails", session);
-                        }
-                        %>
-                        </ul></td>
-                    <td><strong>My sessions</strong> 
-                        <ul id="mySessions-day2" class="dropable connectedSortable-day2">
-
-                        </ul></td>
+                <td>
+                <%
+                foreach (var session in Model.Day1.Where(p=>p.Room == "Indigo Bay"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>               
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day1.Where(p => p.Room == "Cypress"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %> 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day1.Where(p => p.Room == "E"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day1.Where(p => p.Room == "D"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day1.Where(p => p.Room == "Mangrove"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day1.Where(p => p.Room == "Portia/Wisteria"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>             
                 </tr>
             </tbody>
         </table>
-    </div>
-    <div id="tabs-3">
+    </div>    
+     <div id="tabs-3">
         <table class="ui-widget-content ui-corner-all">
             <tbody>
                 <tr>
-                    <td class="left"><strong>Sessions</strong> 
-                        <ul id="sessions-day3" class="dropable connectedSortable-day3">
-                        <%
-                            foreach (var session in Model.Where(s => s.Start.GetValueOrDefault(DateTime.Now) >= new DateTime(2010, 1, 15)))
-                        {
-                          Html.RenderPartial("_sessionDetails", session);
-                        }
-                        %>
-                        </ul></td>
-                    <td><strong>My sessions</strong> 
-                        <ul id="mySessions-day3" class="dropable connectedSortable-day3">
-
-                        </ul></td>
+                <td>
+                <%
+                    foreach (var session in Model.Day2.Where(p => p.Room == "Indigo Bay"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>               
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day2.Where(p => p.Room == "Cypress"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %> 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day2.Where(p => p.Room == "E"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day2.Where(p => p.Room == "D"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day2.Where(p => p.Room == "Mangrove"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>
+                <td>
+                <%
+                    foreach (var session in Model.Day2.Where(p => p.Room == "Portia/Wisteria"))
+                {
+                  Html.RenderPartial("_sessionDetails", session);
+                }
+                %>                 
+                </td>     
                 </tr>
             </tbody>
         </table>
-    </div>        
+    </div>    
 </div>
-
 <script type="text/javascript">
-    $(function() {
-        $("#sessions-day1, #mySessions-day1").sortable({
-            connectWith: '.connectedSortable-day1',
-            placeholder: 'ui-state-highlight'
-        }).disableSelection();
-            
-            $("#sessions-day2, #mySessions-day2").sortable({
-            connectWith: '.connectedSortable-day2',
-                placeholder: 'ui-state-highlight'
-            }).disableSelection();
-            
-            $("#sessions-day3, #mySessions-day3").sortable({
-                connectWith: '.connectedSortable-day3',
-                placeholder: 'ui-state-highlight'
-            }).disableSelection();
+    $('a.clickable').each(function() {
+        $(this).qtip({
+        content: $(this).attr('tooltip'), // Use the tooltip attribute of the element for the content
+            style: { name: 'dark', border: { radius: 5 }, width: { max: 500 }  },
+            show: { when: 'click', solo: true }, // Give it a crea mstyle to make it stand out
+            hide: { when: 'mouseout', fixed: true },
+            position: { adjust: { screen: true} }
+        });
     });
 	$(function() {
 		$("#tabs").tabs();

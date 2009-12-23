@@ -21,7 +21,7 @@ namespace CodeMashScheduller
             routes.MapRoute(
                 "Default",                                              // Route name
                 "{controller}/{action}/{id}",                           // URL with parameters
-                new { controller = "Scheduller", action = "Index", id = "" }  // Parameter defaults
+                new { controller = "Scheduler", action = "Index", id = "" }  // Parameter defaults
             );
 
         }
@@ -29,7 +29,7 @@ namespace CodeMashScheduller
         protected void Application_Start()
         {
             RegisterRoutes(RouteTable.Routes);
-           // InitializeActiveRecord();
+            InitializeActiveRecord();
         }
 
         public static void InitializeActiveRecord()
@@ -50,14 +50,14 @@ namespace CodeMashScheduller
             var source = new InPlaceConfigurationSource();
 
             source.Add(typeof(ActiveRecordBase), properties);    
-            ActiveRecordStarter.Initialize(source, typeof(Session),typeof(Speaker),typeof(Precompiler));
+            ActiveRecordStarter.Initialize(source, typeof(SavedSessions));
             
             try
             {
-                ActiveRecordStarter.CreateSchema();
+             //     ActiveRecordStarter.CreateSchema();
             }catch
             {
-                ActiveRecordStarter.UpdateSchema();
+             //   ActiveRecordStarter.UpdateSchema();
             }
         }
     }

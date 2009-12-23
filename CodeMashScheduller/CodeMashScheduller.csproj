@@ -93,8 +93,10 @@
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CacheDataController.cs" />
+    <Compile Include="Controllers\CodemashController.cs" />
+    <Compile Include="Models\SavedSessions.cs" />
     <Compile Include="Models\SchedulleModel.cs" />
-    <Compile Include="Controllers\SchedullerController.cs" />
+    <Compile Include="Controllers\SchedulerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Models\ISession.cs" />
     <Compile Include="Models\PrecompilerRepository.cs" />
@@ -170,8 +172,9 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-ui-1.7.2.custom.min.js" />
     <Content Include="Views\CacheData\Index.aspx" />
-    <Content Include="Views\Scheduller\Index.aspx" />
-    <Content Include="Views\Scheduller\_sessionDetails.ascx" />
+    <Content Include="Views\Codemash\Selection.ascx" />
+    <Content Include="Views\Scheduler\Index.aspx" />
+    <Content Include="Views\Scheduler\_sessionDetails.ascx" />
     <Content Include="Views\HTMLPage1.htm" />
     <Content Include="Web.config" />
     <Content Include="Content\Site.css" />

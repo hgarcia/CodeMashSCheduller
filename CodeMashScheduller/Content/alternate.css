@@ -10,6 +10,7 @@ color:#E3DDC9;
 }
 
 strong{font-size: 110%;}
+.ui-button { outline: 0; margin:0; padding: .4em 1em .5em; text-decoration:none;  !important; cursor:pointer; position: relative; text-align: center; }
 
 #maincontainer{
 	margin: 0 auto; /*Center container on page*/

@@ -173,6 +173,7 @@
     <Content Include="Scripts\jquery-ui-1.7.2.custom.min.js" />
     <Content Include="Views\CacheData\Index.aspx" />
     <Content Include="Views\Codemash\Selection.ascx" />
+    <Content Include="Views\Codemash\_sessionDetails.ascx" />
     <Content Include="Views\Scheduler\Index.aspx" />
     <Content Include="Views\Scheduler\_sessionDetails.ascx" />
     <Content Include="Views\HTMLPage1.htm" />

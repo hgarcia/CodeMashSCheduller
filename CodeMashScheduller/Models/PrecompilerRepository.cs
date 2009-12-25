@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -27,6 +28,12 @@ namespace CodeMashScheduller.Models
                 .ToList()
                 .OrderBy(p => p.Start)
                 .OrderBy(p => p.Room);
+        }
+
+        public IEnumerable<Precompiler> FindById(string precompilersIds)
+        {
+            var idsArr = precompilersIds.Replace(" ", string.Empty).Split(',');
+            return All().Where(s => idsArr.Any(id => s.Id.ToString() == id));
         }
     }
 }

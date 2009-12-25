@@ -1,7 +1,7 @@
 <%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<CodeMashScheduller.Models.SchedulleModel>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-	Codemash schedule - select the sessions you want to see.
+	Codemash schedule - select the sessions you plan to attend.
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -216,16 +216,8 @@
 </form>
 <div id="no-sessions">No sessions selected. Nothing will be saved.</div>
 <div id="saved-sessions"></div>
+<script type="text/javascript" src="../../Scripts/codemash.js"></script>
 <script type="text/javascript">
-    $('a.clickable').each(function() {
-        $(this).qtip({
-        content: $(this).attr('tooltip'), // Use the tooltip attribute of the element for the content
-            style: { name: 'dark', border: { radius: 5 }, width: { max: 500 }  },
-            show: { when: 'click', solo: true }, // Give it a crea mstyle to make it stand out
-            hide: { when: 'mouseout', fixed: true },
-            position: { adjust: { screen: true} }
-        });
-    });
 	$(function() {
 		$("#tabs").tabs();
 });

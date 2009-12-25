@@ -158,6 +158,7 @@
     <Content Include="Content\jquery-ui-1.7.2.custom.css" />
     <Content Include="Content\images\bg.gif" />
     <Content Include="Content\images\lava.gif" />
+    <Content Include="Scripts\codemash.js" />
     <Content Include="Scripts\jquery.qtip-1.0.0-rc3.min.js" />
     <Content Include="Content\precompiler.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -172,7 +173,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-ui-1.7.2.custom.min.js" />
     <Content Include="Views\CacheData\Index.aspx" />
-    <Content Include="Views\Codemash\Selection.ascx" />
+    <Content Include="Views\Codemash\Selection.aspx" />
     <Content Include="Views\Codemash\_sessionDetails.ascx" />
     <Content Include="Views\Scheduler\Index.aspx" />
     <Content Include="Views\Scheduler\_sessionDetails.ascx" />

@@ -22,6 +22,11 @@ strong{font-size: 110%;}
 	margin-top:5px
 }
 
+#selectedSessions
+{
+	width: 100%;
+}
+
 #contentwrapper{
 float: left;
 width: 100%;

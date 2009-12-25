@@ -42,7 +42,7 @@ namespace CodeMashScheduller
                                      {"connection.provider", "NHibernate.Connection.DriverConnectionProvider"},
                                      {"proxyfactory.factory_class", "NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle"},
                                      {
-                                         "connection.connection_string",
+                                         "connection.connection_string", /*codemash - MasherCode1*/
                                          @"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Development\Code\Net3.5\CodeMashScheduller\CodeMashScheduller\App_Data\CodeMashScheduller.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
                                          }
                                  };

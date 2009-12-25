@@ -6,7 +6,7 @@
         Level: <%=Model.Difficulty.ToString().Encode() %><br/>
         Start: <%=Model.Start.ToString() %><br />
         Room: <%=Model.Room %><br />
-        Details: <br /><%=Model.Abstract.Encode() %>
+        <a id="<%= Model.Id %>" class="clickable" tooltip="<%=Model.Abstract.Encode() %>">[See details]</a>
     </p> 
 </div>
 

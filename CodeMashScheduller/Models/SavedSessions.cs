@@ -1,18 +1,13 @@
 using System;
 using System.Text;
-using Castle.ActiveRecord;
 
 namespace CodeMashScheduller.Models
 {
-    [ActiveRecord]
-    public class SavedSessions : ActiveRecordBase<SavedSessions>
+    public class SavedSessions
     {
-        [PrimaryKey]
         public virtual int Id { get; set; }
-
         private string _name;
 
-        [Property]
         public virtual string Name
         {
             get
@@ -24,10 +19,8 @@ namespace CodeMashScheduller.Models
             set { _name = value; }
         }
 
-        [Property]
         public virtual string Precompilers { get; set; }
 
-        [Property]
         public virtual string Sessions { get; set; }
 
         private static string RandomString()

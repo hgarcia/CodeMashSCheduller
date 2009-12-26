@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Net;
 using System.Web;
 using System.Xml;
@@ -36,7 +35,7 @@ namespace CodeMashScheduller.Models
         {
             if(_uncache) return null;
             var path = _server.MapPath("~/Content/" + resourceName + ".xml");
-            if (File.Exists(path))// && File.GetLastWriteTime(path).Date >= DateTime.Now.Date)
+            if (File.Exists(path))
             {
                 var xml = new XmlDocument();
                 xml.Load(path);

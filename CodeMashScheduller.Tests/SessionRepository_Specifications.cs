@@ -7,12 +7,6 @@ namespace CodeMashScheduller.Tests
     [TestFixture]
     public class SessionRepository_Specifications
     {
-        [SetUp]
-        public void setup()
-        {
-            MvcApplication.InitializeActiveRecord();
-        }
-
         [Test]
         public void When_calling_method_all_Should_return_an_IEnumerable_of_sessions()
         {
@@ -41,8 +35,7 @@ namespace CodeMashScheduller.Tests
             var sessionList = sessions.OrderBy(s => s.Id).ToList();
             Assert.That(sessionList[0].Id, Is.EqualTo(20));
             Assert.That(sessionList[1].Id, Is.EqualTo(21));
-            Assert.That(sessionList[2].Id, Is.EqualTo(58));
-            
+            Assert.That(sessionList[2].Id, Is.EqualTo(58));      
         }
     }
 }

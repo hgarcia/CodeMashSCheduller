@@ -8,15 +8,6 @@ namespace CodeMashScheduller.Models
         public Precompiler Create(XmlNode xmlPrecompiler)
         {
             var precompiler = SetPrecompiler(xmlPrecompiler, new Precompiler());
-           /* try
-            {
-                precompiler.Create();
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }*/
-
             return precompiler;
         }
 

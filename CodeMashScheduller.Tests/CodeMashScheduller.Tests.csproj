@@ -94,6 +94,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateTimeExtension_Specs.cs" />
     <Compile Include="PrecompilerMapper_Specification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionMapper_Specifications.cs" />

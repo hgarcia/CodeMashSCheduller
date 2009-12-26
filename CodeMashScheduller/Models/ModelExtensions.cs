@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System;
+using System.Web;
 
 namespace CodeMashScheduller.Models
 {
@@ -8,6 +9,16 @@ namespace CodeMashScheduller.Models
         {
             return string.IsNullOrEmpty(value) ? string.Empty 
                 : HttpUtility.HtmlEncode(value);
+        }
+
+        public static string ToiCalTime(this DateTime dateTime)
+        {
+            return dateTime.ToiCalTime(0);
+        }
+
+        public static string ToiCalTime(this DateTime dateTime, int timeZoneDifference)
+        {
+            return dateTime.AddHours(timeZoneDifference).ToString("yyyyMMdd") + "T" + dateTime.AddHours(timeZoneDifference).ToString("HHmmssZ"); 
         }
     }
 }

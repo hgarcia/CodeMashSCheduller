@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Xml;
-using NHibernate.Criterion;
 
 namespace CodeMashScheduller.Models
 {
@@ -9,15 +8,6 @@ namespace CodeMashScheduller.Models
         public Session Create(XmlNode xmlSession)
         {
             var session = SetSession(xmlSession, new Session());
-           /* try
-            {
-                session.Create();
-            }
-            catch (Exception e)
-            {  
-                throw e;
-            }*/
-           
             return session;
         }
 

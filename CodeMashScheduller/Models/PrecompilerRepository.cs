@@ -31,6 +31,7 @@ namespace CodeMashScheduller.Models
 
         public IEnumerable<Precompiler> FindById(string precompilersIds)
         {
+            if (string.IsNullOrEmpty(precompilersIds)) return new List<Precompiler>();
             var idsArr = precompilersIds.Replace(" ", string.Empty).Split(',');
             return All().Where(s => idsArr.Any(id => s.Id.ToString() == id));
         }

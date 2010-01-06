@@ -26,6 +26,7 @@ namespace CodeMashScheduller.Models
 
         public IEnumerable<Session> FindById(string sessionIds)
         {
+            if (string.IsNullOrEmpty(sessionIds)) return new List<Session>();
             var idsArr = sessionIds.Replace(" ", string.Empty).Split(',');
             return All().Where(s => idsArr.Any(id => s.Id.ToString() == id));
         }
